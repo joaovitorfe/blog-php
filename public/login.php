@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header('Location: index.php');
         exit();
     } else {
-        $erro = 'Email ou senha incorretos';
+        $erro = 'Dados incorretos, tente novamente';
     }
 }
 ?>
